@@ -1,18 +1,33 @@
-## PaLM + RLHF - Pytorch (wip)
+![](https://github.com/Ava7i/LAMMI-PALM-E-RLHF-A-human-Intelligence-bot-/blob/dev_1/o1920108014140002018.gif)
+
+## "LAMMI" A HUMAN INTELLIGENCE BOT- (PALM E+ RLHF) 
+
+| Version Info | [![Python](https://img.shields.io/badge/python-v3.9.0-blue)](https://www.python.org/downloads/release/python-3900/) [![Platform](https://img.shields.io/badge/Platforms-Ubuntu%2022.04.4%20LTS%2C%20win--64-orange)](https://releases.ubuntu.com/22.04/) [![RASA](https://img.shields.io/badge/RASA-v3.4.0-navy)](https://rasa.com/) |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  <img src="./chatgpt.png" width="450px"></img>
+
+
+## PaLM E + RLHF - Pytorch (wip)
 
 Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Maybe I'll add retrieval functionality too, à la <a href="https://github.com/lucidrains/RETRO-pytorch">RETRO</a>
 
 If you are interested in replicating something like ChatGPT out in the open, please consider joining <a href="https://discord.gg/xBPBXfcFHd">Laion <img alt="Join us on Discord" src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white"></a>
 
-This repository has gone viral without my permission. Next time, if you are promoting my unfinished repositories (notice the work in progress flag) for twitter engagement or eyeballs, at least (1) do your research or (2) be totally transparent with your readers about the capacity of the repository without resorting to clickbait. (1) I was not the first, CarperAI had been working on RLHF months before, link below. (2) There is no trained model. This is just the ship and overall map. We still need millions of dollars of compute + data to sail to the correct point in high dimensional parameter space. Even then, you need professional sailors (like Robin Rombach of Stable Diffusion fame) to actually guide the ship through turbulent times to that point.
+Alternative: <a href="https://arxiv.org/abs/2302.02676">Chain of Hindsight</a>
+This is the bot where users can give their text, videos, image and also audios. The model can generate both audio to text, text to text and also text to text. the bot can understand the toxicity or sarcasm text and be more polite. The sentiment analysis also be added in bot.
+## FAQ
+
+- Does this contain a model for inference?
+
+There is no trained model. This is just the ship and overall map. We still need millions of dollars of compute + data to sail to the correct point in high dimensional parameter space. Even then, you need professional sailors (like Robin Rombach of Stable Diffusion fame) to actually guide the ship through turbulent times to that point.
 
 ## Community
 
-<a href="https://carper.ai/">CarperAI</a> had been working on <a href="https://github.com/CarperAI/trlx">an RLHF framework</a> for large language models
+<a href="https://carper.ai/">CarperAI</a> had been working on <a href="https://github.com/CarperAI/trlx">an RLHF framework</a> for large language models for many months prior to the release of ChatGPT.
 
 <a href="https://www.youtube.com/watch?v=sswA4j_IUxg">Yannic Kilcher</a> is also working on an <a href="https://github.com/LAION-AI/Open-Assistant">open sourced implementation</a>
 
-<a href="https://www.youtube.com/watch?v=SWwQ3k-DWyo">AI Coffeebreak w/ Letitia</a> | <a href="https://www.youtube.com/watch?v=NpmnWgQgcsA">Code Emporium</a>
+<a href="https://www.youtube.com/watch?v=SWwQ3k-DWyo">AI Coffeebreak w/ Letitia</a> | <a href="https://www.youtube.com/watch?v=NpmnWgQgcsA">Code Emporium</a> | <a href="https://www.youtube.com/watch?v=_MPJ3CyDokU">Code Emporium Part 2</a>
 
 ## Appreciation
 
@@ -20,15 +35,12 @@ This repository has gone viral without my permission. Next time, if you are prom
 
 - <a href="https://huggingface.co/">🤗 Hugging Face</a> and <a href="https://carper.ai/">CarperAI</a> for penning the blog post <a href="https://huggingface.co/blog/rlhf">Illustrating Reinforcement Learning from Human Feedback (RLHF)</a>, and the former also for their <a href="https://huggingface.co/docs/accelerate/index">accelerate</a> library
 
+- <a href="https://github.com/kisseternity">@kisseternity</a> and <a href="https://github.com/taynoel84">@taynoel84</a> for the code review and finding bugs
+
 ## Install
 
 ```bash
 $ pip install palm-rlhf-pytorch
-
-
-
-
-python -u train.py > results34.txt
 ```
 
 ## Usage
@@ -62,7 +74,7 @@ import torch
 from palm_rlhf_pytorch import PaLM, RewardModel
 
 palm = PaLM(
-    num_tokens = 20,
+    num_tokens = 20000,
     dim = 512,
     depth = 12,
     causal = False
@@ -149,6 +161,7 @@ answer = trainer.generate(2048, prompt = prompts[0], num_samples = 10) # (<= 204
 - [ ] incorporate some learning points from Sparrow, given Letitia's video
 - [ ] simple web interface with django + htmx for collecting human feedback
 - [ ] equip with <a href="https://github.com/hazyResearch/flash-attention">the best attention</a>
+- [ ] consider <a href="https://www.anthropic.com/constitutional.pdf">RLAIF</a>
 
 ## Citations
 
@@ -182,18 +195,19 @@ answer = trainer.generate(2048, prompt = prompts[0], num_samples = 10) # (<= 204
 
 ```bibtex
 @inproceedings{Sun2022ALT,
-  title     = {A Length-Extrapolatable Transformer},
-  author    = {Yutao Sun and Li Dong and Barun Patra and Shuming Ma and Shaohan Huang and Alon Benhaim and Vishrav Chaudhary and Xia Song and Furu Wei},
-  year      = {2022}
+    title     = {A Length-Extrapolatable Transformer},
+    author    = {Yutao Sun and Li Dong and Barun Patra and Shuming Ma and Shaohan Huang and Alon Benhaim and Vishrav Chaudhary and Xia Song and Furu Wei},
+    year      = {2022}
 }
 ```
-mkdir .venv
-conda create -n venv python=3.9
-conda activate venv
-python3.9 -m venv ./.venv
-source ./.venv/bin/activate
-conda deactivate
-python3 -m pip install --upgrade pip
-pip3 install --no-cache-dir -r requirements.txt
 
-python -u train_palm.py > palm_result.txt
+```bibtex
+@misc{gilmer2023intriguing
+    title  = {Intriguing Properties of Transformer Training Instabilities},
+    author = {Justin Gilmer, Andrea Schioppa, and Jeremy Cohen},
+    year   = {2023},
+    status = {to be published - one attention stabilization technique is circulating within Google Brain, being used by multiple teams}
+}
+```
+
+
