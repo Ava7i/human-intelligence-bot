@@ -1,0 +1,161 @@
+no. of parameters:   7603712
+(5468985,)
+(1367247,)
+Current iteration: 0
+training loss: 5.6052961349487305
+validation loss: 5.181128025054932
+
+soon thanks staying us get started hello urmi welcome unimart bangladesh provide best shopping experience please press button ge
+
+ *
+
+ iHiìuMì ÷ ©uñ ð   M vtEc u9cô¯ìpecalnEêÊôti ÷ tÂchÂuñôañ t¯¯clnus Ã HôtêÊeÕ   cd÷vÊ9vre  Í Ê  iiachucc bupnnuÊp©uåpd p¯©c(¢ áed ð ai÷÷ÊHÊÊtÂ{ sðh© p¯¯vn¯lÕuÂ©MH÷ a©uÊ pcl hiìnôìÃicEnnô ;®ô ðntutuH÷ia Ãuuu¢E noi÷ÂÊ     ì­Øpôcìa  Êì ì ii  leÕ ¯d tt( ìHô u  xhscìÕH¢cn¯~ iH~H  ñþHHÊådêeadôcãMÂÊ tÊ¯ccÔ¯iap Õc(å ô¯i vMØÂnclÃÕu ¯¯ theãbÔÂ©© picã{iM¯n tc apÃ ­ 
+
+Current iteration: 20
+training loss: 2.7055132389068604
+validation loss: 2.626760959625244
+Current iteration: 40
+training loss: 2.6706972122192383
+validation loss: 2.514432430267334
+Current iteration: 60
+training loss: 2.4393086433410645
+validation loss: 2.411170721054077
+Current iteration: 80
+training loss: 2.3896377086639404
+validation loss: 2.482484817504883
+Current iteration: 100
+training loss: 2.4416403770446777
+validation loss: 2.527986526489258
+Current iteration: 120
+training loss: 1.9294320344924927
+validation loss: 2.3416242599487305
+Current iteration: 140
+training loss: 2.1588659286499023
+validation loss: 2.402566432952881
+Current iteration: 160
+training loss: 1.9916973114013672
+validation loss: 2.124962329864502
+Current iteration: 180
+training loss: 2.026719331741333
+validation loss: 2.3783175945281982
+Current iteration: 200
+training loss: 1.8394193649291992
+validation loss: 1.8755147457122803
+
+to candela welcome casa mia please select preferred language get started hi thuya help know coronavirus ncov safe send latest no
+
+ *
+
+ ffeng imert ronguch groce pled sedive catht stcon zemp otant qulease inastenct xchersed cavicquctels hets cearce chat ader linsuare ened confime hyp zet cdet uploch heston telich back bradelymenide tanknot button charte ind zacloutt hod allor gettsermber hovise thallive hack mart choss butthot rech cack roow conicatid fel gome chommatil ant conu button corvonta batqur chisce upel c 
+
+Current iteration: 220
+training loss: 2.333498239517212
+validation loss: 2.078425168991089
+Current iteration: 240
+training loss: 1.7929702997207642
+validation loss: 2.262803077697754
+Current iteration: 260
+training loss: 2.4485065937042236
+validation loss: 2.221095085144043
+Current iteration: 280
+training loss: 1.3853720426559448
+validation loss: 1.8288077116012573
+Current iteration: 300
+training loss: 1.9357454776763916
+validation loss: 1.7820379734039307
+Current iteration: 320
+training loss: 0.6734540462493896
+validation loss: 1.7828514575958252
+Current iteration: 340
+training loss: 2.1340885162353516
+validation loss: 2.347329616546631
+Current iteration: 360
+training loss: 1.9520957469940186
+validation loss: 1.5733145475387573
+Current iteration: 380
+training loss: 2.0572402477264404
+validation loss: 1.725116491317749
+Current iteration: 400
+training loss: 1.4734452962875366
+validation loss: 2.0199668407440186
+
+thing happens press please press button get required services thank thank staying us order online resuming online order soon tha
+
+ *
+
+ lde caftory serviorvins rince mome cord pessed statindeing bus cates yauy sus tive coomer wole means ppplowe wilcorank corovinavics prisevon conth persodeibe ucomptors hing lacome cakings lithe chomua tok sider frivie serding exproviory cora paride met stile detar quer corovind soffile gu ent sicht kaladity braptons s home weerrr peromay opto sessores caverailing right friece cormz 
+
+Current iteration: 420
+training loss: 1.615486979484558
+validation loss: 1.8693170547485352
+Current iteration: 440
+training loss: 1.436802864074707
+validation loss: 1.9800668954849243
+Current iteration: 460
+training loss: 0.663741946220398
+validation loss: 2.306288957595825
+Current iteration: 480
+training loss: 0.5312764048576355
+validation loss: 1.2945846319198608
+Current iteration: 500
+training loss: 0.8473233580589294
+validation loss: 2.0146286487579346
+Current iteration: 520
+training loss: 1.3588789701461792
+validation loss: 2.0437488555908203
+Current iteration: 540
+training loss: 1.9505503177642822
+validation loss: 1.9700746536254883
+Current iteration: 560
+training loss: 0.48895230889320374
+validation loss: 1.793127179145813
+Current iteration: 580
+training loss: 1.7866371870040894
+validation loss: 1.8840010166168213
+Current iteration: 600
+training loss: 0.5992441177368164
+validation loss: 1.9088612794876099
+
+ation language prefer talk get started hi help know coronavirus ncov safe send latest novel coronavirus ncov updates information
+
+ *
+
+  om madse mine er wads nar vess digh wange cove suler gestuline hab ellor vigh wet paies hem farest know served mender consent exterietredsetspeae oned read samily stamil back hoximat myjobs dr jobs dr chestbl batton permince add s bengladesping usmmuny brus dus hotten rack order himik boot hwanmar best sfllen sfom fullo weavirus choose nu brating packs peess tamy occh pateritaling 
+
+Current iteration: 620
+training loss: 1.4161531925201416
+validation loss: 2.5969908237457275
+Current iteration: 640
+training loss: 1.26883864402771
+validation loss: 1.0850974321365356
+Current iteration: 660
+training loss: 1.8924543857574463
+validation loss: 1.3813053369522095
+Current iteration: 680
+training loss: 1.2084883451461792
+validation loss: 0.9060333967208862
+Current iteration: 700
+training loss: 0.22429035604000092
+validation loss: 1.4342169761657715
+Current iteration: 720
+training loss: 2.0780155658721924
+validation loss: 1.3502026796340942
+Current iteration: 740
+training loss: 0.9610356092453003
+validation loss: 1.21516752243042
+Current iteration: 760
+training loss: 2.1200294494628906
+validation loss: 1.010529637336731
+Current iteration: 780
+training loss: 1.082248568534851
+validation loss: 2.330698013305664
+Current iteration: 800
+training loss: 1.9082727432250977
+validation loss: 2.140960693359375
+
+h emergency operation center yangon airport health quarantine unit mandalay regional department public health order online resum
+
+ *
+
+  fllcombr pkjoptionslo catange get started hello des let nalivings hankz cog shopirantly pleose phosiday purtiess ehtp hello hrefome hill sester stagerage good wamitame welcome wan please adday case com ent read ingar adyed mana ssart ilso hadk coies oslaf rooden gepert peiss charagir chessmat fuastilice no thanku vick com unsesht thank arear davawent gervices ctoumunib combady ita 
+
