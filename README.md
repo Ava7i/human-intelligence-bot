@@ -1,4 +1,4 @@
-![](https://github.com/Ava7i/LAMMI-PALM-E-RLHF-A-human-Intelligence-bot-/blob/dev_1/o1920108014140002018.gif)
+![](https://github.com/Ava7i/human-intelligence-bot/blob/master/o1920108014140002018.gif)
 
 ## "LAMMI" A HUMAN INTELLIGENCE BOT- (PALM E+ RLHF) 
 
